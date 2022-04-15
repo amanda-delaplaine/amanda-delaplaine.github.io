@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@200&family=Raleway:wght@100&family=Rubik+Moonrocks&display=swap');
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+nav li {
+  float: left;
+  padding-left: 90px;
+}
+
+.navbar {
+  background: #FFFFFF;
+  color: #000;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+a,
+a:link {
+  color: rgb(0,0,139);
+}
+
+a:visited {
+  color: #555;
+}
+
+a:hover {
+  color: rgb(201,53,68);
+}
+
+a:active {
+  color: rgb(245,188,78);
+}
+
+body {
+    font-family: "Raleway", "Times New Roman", "Georgia", serif;
+    font-size: 16px;
+    color: #222;
+    line-height: 1.5;
+    background-color: rgba(120,199,255,0.5);
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Rubik Moonrocks", "Times New Roman", "Georgia", serif;
+    font-size: 120px;
+  }
+
+nav,
+footer {
+    background-color: #FFFFFF;
+}
+
+#background h3 {
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+#transportation h4 {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+}
+
+#background p {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  padding-left: 0px;
+}
+
+#background {
+  display: flex;
+  justify-content: center;
+  /*max-height: 800px;*/
+  overflow-y: scroll;
+}
+
+#government p{
+  text-align: left;
+}
+
+section {
+    background-color: #FFFFFF;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+audio {
+  width: 200px;
+}
+
+/*address {
+  text-align: center;
+  align-items: left;
+}*/
+
+figure {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: 10px;
+  text-indent: 0;
+  border: thin #000 solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+    max-width: 960px;
+    /*border: 5px solid rgb(0, 0, 0);*/
+    padding: 10px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "masthead    masthead"
+        "navigation  welcome"
+        "info info"
+        "government government"
+        "transportation transportation"
+        "environment environment2"
+        "copyright   copyright";
+    }
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #000080;
+}
+
+p {
+    margin: 0;
+}
+
+
+footer {
+    padding: 0 20px;
+}
+
+header {
+    grid-area: masthead;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    grid-area: navigation;
+}
+
+main {
+    grid-area: welcome;
+}
+
+#government h4{
+  text-align: left;
+}
+
+h4 {
+  color: #ADD8E6;
+  font-size: 20px;
+  text-align: center;
+}
+
+table {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+background {
+    grid-area: info;
+}
+
+environment {
+    grid-area: environment;
+}
+
+environment2 {
+    grid-area: environment2;
+}
+
+government {
+    grid-area: government;
+}
+
+transportation {
+    grid-area: transportation;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    grid-area: copyright;
+}
