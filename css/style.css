@@ -3,7 +3,7 @@
 
 * {
 	font-family: 'Montserrat', sans-serif, serif;
-	/* font-weight: 100; */
+	font-weight: 100; */
 }
 
 h1 {
@@ -89,7 +89,7 @@ nav a:hover {
 
 .license {
   grid-area: 3 / 4 / 4 / 5;
-  background-color: orange;
+  background-color: #97AAE2;
 	padding: 0.5em;
   text-align:center;
 }
@@ -121,11 +121,26 @@ margin-top: 2em;
 	padding: 1em;
 	background-color: #D3D3D3;
 }
-/*subgrids*/
-.ed_title { grid-area: 1 / 1 / 2 / 3; text-align: center; border-bottom: 3px solid black;}
-.ed_leftcenter { grid-area: 2 / 1 / 3 / 2; text-align: left; border-bottom: 1px solid black;}
-.ed_rightcenter { grid-area: 2 / 2 / 3 / 3; text-align: right; border-bottom: 1px solid black;}
-.ed_footer { grid-area: 3 / 1 / 4 / 3; text-align: left;}
+
+.ed_title {
+	grid-area: 1 / 1 / 2 / 3;
+	text-align: center;
+	border-bottom: 3px solid black;
+}
+.ed_leftcenter {
+	grid-area: 2 / 1 / 3 / 2;
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+.ed_rightcenter {
+	grid-area: 2 / 2 / 3 / 3;
+	text-align: right;
+	border-bottom: 1px solid black;
+}
+.ed_footer {
+	grid-area: 3 / 1 / 4 / 3;
+	text-align: left;
+}
 
 .work_experience {
   grid-area: 2 / 3 / 4 / 5;
@@ -158,9 +173,19 @@ margin-top: 2em;
 	padding: 1em;
 	background-color: #D3D3D3;
 }
-/*subgrids*/
-.skill_title { grid-area: 1 / 1 / 2 / 3; text-align: center; border-bottom: 3px solid black;}
-.skills_info { grid-area: 2 / 1 / 3 / 3; margin-bottom: 2em; border-bottom: 3px solid black;}
+
+
+.skill_title {
+	grid-area: 1 / 1 / 2 / 3;
+	text-align: center;
+	border-bottom: 3px solid black;
+}
+
+.skills_info {
+	grid-area: 2 / 1 / 3 / 3;
+	margin-bottom: 2em;
+	border-bottom: 3px solid black;
+}
 
 .contact {
 display: grid;
@@ -188,18 +213,18 @@ padding-bottom: 2em;
   color: white;
 	padding-top: 30px;
 }
-/* Align items to center of the 'div' with the class 'center' */
+
 .center {
 	text-align: center;
 }
 
-/* Add styles to 'label' selector */
+
 label {
 	font-size: 0.85em;
 	margin-left: 12px;
 }
 
-/* Add styles to 'input' and 'textarea' selectors */
+
 input[type=text],input[type=email], textarea {
     width: 100%;
     padding: 12px;
@@ -211,7 +236,7 @@ input[type=text],input[type=email], textarea {
     resize: vertical;
 }
 
-/* Add styles to the submit button */
+
 input[type=submit] {
 	background: #B19DE5;
 	margin: 0 auto;
@@ -225,7 +250,7 @@ input[type=submit] {
 	text-align: center;
 }
 
-/* Style 'hover' property */
+
 input[type=submit]:hover {
 	background: #2196F3;
 }
